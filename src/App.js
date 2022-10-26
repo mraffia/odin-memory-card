@@ -38,6 +38,7 @@ function App() {
             )
           })}
         </div>
+        <div className="info">Tip: Get points by clicking an image but don't click the same image  more than once. Score 12 points to beat the game.</div>
       </div>
 
       <div className="footer">
