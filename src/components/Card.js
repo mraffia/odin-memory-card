@@ -3,9 +3,9 @@ import '../styles/Card.css';
 import Bretta from '../images/bretta.png';
 import Brumm from '../images/brumm.png';
 import Cloth from '../images/cloth.png';
-import Cornifer from '../images/cornifer.png';
 import Grimm from '../images/grimm.png';
 import Hornet from '../images/hornet.png';
+import Jiji from '../images/jiji.png';
 import Knight from '../images/knight.png';
 import Quirrel from '../images/quirrel.png';
 import Seer from '../images/seer.png';
@@ -24,8 +24,8 @@ function Card(props) {
         finalImage = Brumm;
     } else if (character === "cloth") {
         finalImage = Cloth;
-    } else if (character === "cornifer") {
-        finalImage = Cornifer;
+    } else if (character === "jiji") {
+        finalImage = Jiji;
     } else if (character === "grimm") {
         finalImage = Grimm;
     } else if (character === "hornet") {

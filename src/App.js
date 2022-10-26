@@ -8,10 +8,10 @@ function App() {
   const [cards, setCards] = useState([
     ["bretta", false],
     ["brumm", false],
-    ["clooth", false],
-    ["cornifer", false],
+    ["cloth", false],
     ["grimm", false],
     ["hornet", false],
+    ["jiji", false],
     ["knight", false],
     ["quirrel", false],
     ["seer", false],
