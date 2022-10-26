@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/odin-memory-card/static/css/main.5aa1093b.css",
+    "main.js": "/odin-memory-card/static/js/main.fef193af.js",
+    "static/media/brumm.png": "/odin-memory-card/static/media/brumm.d2bd1cee43bd1f1f3ef6.png",
+    "static/media/hornet.png": "/odin-memory-card/static/media/hornet.2362b84897bb763d3b7d.png",
+    "static/media/quirrel.png": "/odin-memory-card/static/media/quirrel.abf5479ae414dfd00b78.png",
+    "static/media/jiji.png": "/odin-memory-card/static/media/jiji.e7015a034bc013f1ee12.png",
+    "static/media/grimm.png": "/odin-memory-card/static/media/grimm.e4ac47e026727d10eadd.png",
+    "static/media/tiso.png": "/odin-memory-card/static/media/tiso.b07f3529ac54d30f9deb.png",
+    "static/media/cloth.png": "/odin-memory-card/static/media/cloth.0a3d20808b8d2fe19f56.png",
+    "static/media/zote.png": "/odin-memory-card/static/media/zote.2c2ee20802bc18e5bc46.png",
+    "index.html": "/odin-memory-card/index.html",
+    "main.5aa1093b.css.map": "/odin-memory-card/static/css/main.5aa1093b.css.map",
+    "main.fef193af.js.map": "/odin-memory-card/static/js/main.fef193af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aa1093b.css",
+    "static/js/main.fef193af.js"
+  ]
+}
