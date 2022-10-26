@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Card from './components/Card.js';
 import './App.css';
 
 function App() {
@@ -25,8 +26,18 @@ function App() {
         <div className="header-title">Odin Memory Card Game</div>
       </div>
 
-      <div className="cards-container">
-
+      <div className="content">
+        <div className="scores-container">
+          <div className="score">Score: {score}</div>
+          <div className="best-score">Best score: {bestScore}</div>
+        </div>
+        <div className="cards-container">
+          {cards.map((card, i) => {
+            return (
+              <Card key={i} character={card[0]} />
+            )
+          })}
+        </div>
       </div>
 
       <div className="footer">
