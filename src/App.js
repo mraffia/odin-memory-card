@@ -41,8 +41,24 @@ function App() {
       clicked[i].splice(1, 1, true);
       setScore(score + 1);
       setCards(clicked);
-    } 
-
+    } else if (clicked[i][1] === true) {
+      setScore(0);
+      setCards([
+        ["bretta", false],
+        ["brumm", false],
+        ["cloth", false],
+        ["grimm", false],
+        ["hornet", false],
+        ["jiji", false],
+        ["knight", false],
+        ["quirrel", false],
+        ["seer", false],
+        ["sly", false],
+        ["tiso", false],
+        ["zote", false],
+      ]);
+    }
+    
     console.log(cards);
   }
 
