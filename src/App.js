@@ -20,24 +20,35 @@ function App() {
     ["zote", false],
   ]);
 
-  // Source: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
   function shuffle(arr) {
     let currentIndex = arr.length, randomIndex;
     let shuffled = arr.slice();
-  
-    // While there remain elements to shuffle.
+
     while (currentIndex !== 0) {
-  
-      // Pick a remaining element.
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
-  
-      // And swap it with the current element.
+
       [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
     }
-  
+
     return shuffled;
   }
+
+  function handleClick(card, i) {
+    let clicked = cards.slice();
+
+    if (clicked[i][1] === false) {
+      clicked[i].splice(1, 1, true);
+      setScore(score + 1);
+      setCards(clicked);
+    } 
+
+    console.log(cards);
+  }
+
+  useEffect(() => {
+    console.log(cards);
+  });
 
   return (
     <div className="container">
@@ -53,7 +64,9 @@ function App() {
         <div className="cards-container">
           {cards.map((card, i) => {
             return (
-              <Card key={i} character={card[0]} />
+              <div key={i} onClick={() => handleClick(card, i)}>
+                <Card character={card[0]} />
+              </div>
             )
           })}
         </div>

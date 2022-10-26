@@ -44,6 +44,11 @@
   margin: 40px;
 }
 
+.info {
+  margin: 20px;
+  text-align: center;
+}
+
 .footer {
   background-color: #DBE2EF;
   grid-area: footer;
