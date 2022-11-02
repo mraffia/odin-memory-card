@@ -1,4 +1,4 @@
-# odin-cv-application
+# odin-memory-card
 Memory Card project from Javascript section of the Full Stack Javascript Course on The Odin Project.
 
 ### Project Website
