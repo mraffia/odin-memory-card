@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Nav from './components/Nav.js';
 import Card from './components/Card.js';
 import './App.css';
 
@@ -80,9 +81,7 @@ function App() {
   
   return (
     <div className="container">
-      <div className="header">
-        <div className="header-title">Odin Memory Card Game</div>
-      </div>
+      <Nav/>
 
       <div className="content">
         <div className="scores-container">
